@@ -60,6 +60,16 @@
 		    <artifactId>aws-secretsmanager-jdbc</artifactId>
 		    <version>1.0.5</version>
 		</dependency>
+		##<dependency>
+                    <groupId>software.amazon.awssdk</groupId>
+                    <groupId>software.amazon.awssdk</groupId>
+                    <artifactId>secretsmanager</artifactId>
+                </dependency>
+
+                 <dependency>
+                 <groupId>software.amazon.awssdk</groupId>
+                 <artifactId>ssm</artifactId>
+                </dependency>##
 		<dependency>
 		  <groupId>org.slf4j</groupId>
 		  <artifactId>log4j-over-slf4j</artifactId>
