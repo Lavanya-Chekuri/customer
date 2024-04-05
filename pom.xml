@@ -11,7 +11,7 @@
 	
 	<groupId>com.naveen</groupId>
 	<artifactId>customer</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-snapshot</version>
 	<name>customer</name>
 	<description>Full stack application using Spring Boot and react</description>
  	<properties>
@@ -83,7 +83,17 @@
 	</dependencies>
 
 	<build>
+		
 		<plugins>
+		    <plugin>
+                              <groupId>org.codehaus.mojo</groupId>
+                               <artifactId>versions-maven-plugin</artifactId>
+                               <version>2.8.1</version> <!-- Use the latest version -->
+                                <configuration>
+                    <!-- Specify version rules or exclusions if needed -->
+                              </configuration>
+                    </plugin>
+        
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
